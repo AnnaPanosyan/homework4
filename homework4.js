@@ -23,11 +23,24 @@ for (let i = 0; i < number.length; i++){
 
 let number =+prompt("Enter a number");
 let number1 =+prompt("Enter a number");
-let arr = [];
-if ( number % 2===1 || number === 0){
+if ( number % 2 === 1 || number === 0){
     number += 1;
 }
 for (let i = number; i < number1; i *= 2){
-    arr.push(i);
+    console.log(i);
 }
-console.log(arr);
+// task4
+// Insert a number. Print “yes” if it contains 3 successive zeros, otherwise print “no”.
+
+
+// task5
+//Insert two positive integers n and m between 1 and 10. Compute and print n m .
+let n =+prompt("Enter a number");
+let m =+prompt("Enter a number");
+let result = 1;
+if ( n > 0 && m > 0 && n < 10 && m < 10){
+    for (let i = 1; i <= m; i++){
+        result *= n;
+         }
+}
+console.log(result);
