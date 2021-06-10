@@ -23,10 +23,11 @@ for (let i = 0; i < number.length; i++){
 
 let number =+prompt("Enter a number");
 let number1 =+prompt("Enter a number");
+let arr = [];
 if ( number % 2===1 || number === 0){
     number += 1;
 }
 for (let i = number; i < number1; i *= 2){
-    console.log(i);
+    arr.push(i);
 }
-
+console.log(arr);
