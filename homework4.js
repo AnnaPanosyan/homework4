@@ -21,3 +21,12 @@ for (let i = 0; i < number.length; i++){
 // task3
 // Given two numbers. Print powers of 2 between that numbers. (without using Math.pow)
 
+let number =+prompt("Enter a number");
+let number1 =+prompt("Enter a number");
+if ( number % 2===1 || number === 0){
+    number += 1;
+}
+for (let i = number; i < number1; i *= 2){
+    console.log(i);
+}
+
