@@ -38,7 +38,7 @@ for (let i = number; i < number1; i *= 2){
 let n =+prompt("Enter a number");
 let m =+prompt("Enter a number");
 let result = 1;
-if ( n > 0 && m > 0 && n < 10 && m < 10){
+if ( n > 0 && m > 0 && n < 10 && m < 10 ){
     for (let i = 1; i <= m; i++){
         result *= n;
          }
