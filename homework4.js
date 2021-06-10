@@ -32,6 +32,19 @@ for (let i = number; i < number1; i *= 2){
 // task4
 // Insert a number. Print “yes” if it contains 3 successive zeros, otherwise print “no”.
 
+let number = prompt("Enter a number")
+let thereAre0;
+for(let i = 0; i < number.length; i++){
+    if (number[i] == 0 && number[i+1] == 0 && number[i+2] == 0) {
+        thereAre0 = true;
+        break;
+    }
+}
+if(thereAre0){
+    console.log('Yes');
+}else{
+    console.log('No');
+}
 
 // task5
 //Insert two positive integers n and m between 1 and 10. Compute and print n m .
