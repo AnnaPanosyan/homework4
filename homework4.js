@@ -48,12 +48,15 @@ if(thereAre0){
 
 // task5
 //Insert two positive integers n and m between 1 and 10. Compute and print n m .
+
 let n =+prompt("Enter a number");
 let m =+prompt("Enter a number");
 let result = 1;
-if ( n > 0 && m > 0 && n < 10 && m < 10 ){
+if ( n > 0 && m > 0 && n < 10 && m < 10 && n === Math.trunc(n) && m === Math.trunc(m) ){
     for (let i = 1; i <= m; i++){
         result *= n;
      }
+    console.log(result);
+}else{
+    console.log("Wrong number");
 }
-console.log(result);
