@@ -54,6 +54,6 @@ let result = 1;
 if ( n > 0 && m > 0 && n < 10 && m < 10 ){
     for (let i = 1; i <= m; i++){
         result *= n;
-         }
+     }
 }
 console.log(result);
